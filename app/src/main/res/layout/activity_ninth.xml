@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NinthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ImgBack"
+            android:src="@drawable/backk" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Upload Your Recipe"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="7dp"/>
+
+    <ImageView
+        android:layout_width="375dp"
+        android:layout_height="235dp"
+        android:layout_marginLeft="7dp"
+        android:src="@drawable/image2" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardFinish"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="#ED6E06"
+        android:layout_marginTop="160dp"
+        android:layout_marginHorizontal="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finish"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
